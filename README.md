@@ -125,5 +125,8 @@ The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bu
 npm install --save-dev html-webpack-plugin
 ```
 
-This is all about the basic set-up. Now enjoy coding!
+Note: You can use yarn instead of npm package manager.
+[Read this article to know more](https://medium.com/@justin.pathrose/configure-react-project-using-typescript-and-webpack-f69faee3e915)
 
+
+This is all about the basic set-up. Now enjoy coding!
