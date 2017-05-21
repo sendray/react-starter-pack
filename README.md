@@ -2,7 +2,7 @@
 
 ## About
 
-This is about to do the initial set up of React with Typescript.
+Configure React project using Typescript and Webpack.
 
 ## Prerequisite
 
@@ -35,7 +35,7 @@ The following command will
 npm start
 ```
 
-# Steps to wireup TypeScript with React and webpack from scratch 
+# From the scratch 
 
 ## Prerequisite
 
@@ -73,50 +73,57 @@ cd ..
 npm init
 ```
 
-This will create package.json in your folder.
+This will create package.json in your folder. This is where the meta data of your project is captured.
 
-## Install our dependencies
+## Install Dependencies
 
-Webpack is a tool that will bundle your code and optionally all of its dependencies into a single .js file
-[learn more](https://webpack.js.org/concepts/)
+Webpack is a tool that will bundle your code and optionally all of its dependencies into a single .js file.
 
-local:
+[To learn more](https://webpack.js.org/concepts/)
+
+locally
 
 ```
 npm install --save webpack 
 ```
 
-or gloabal:
+or gloabally
 
 ```
 npm install -g webpack
 ```
 
-The webpack-dev-server will serve the files in the current directory
-[learn more](https://webpack.js.org/configuration/dev-server/)
+The webpack-dev-server will serve the files in the current directory.
+
+[To learn more](https://webpack.js.org/configuration/dev-server/)
 
 ```
 npm install --save-dev webpack-dev-server
 ```
 
-### Add React and React-DOM, along with their declaration files
+### React and React-DOM, along with their declaration files
 
 ```
 npm install --save react react-dom @types/react @types/react-dom
 ```
 
-### Add Typescript and Typescript Loader
-[learn more](https://www.typescriptlang.org/)
+### Typescript and Typescript Loader
+
+[To learn more](https://www.typescriptlang.org/)
 
 ```
 npm install --save-dev typescript ts-loader
 ```
 
-### Add HTML Webpack Plugin
+### HTML Webpack Plugin
 
-The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bundles
-[learn more](https://webpack.js.org/plugins/html-webpack-plugin/)
+The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bundles.
+
+[To learn more](https://webpack.js.org/plugins/html-webpack-plugin/)
 
 ```
 npm install --save-dev html-webpack-plugin
 ```
+
+This is all about the basic set-up. Now enjoy coding!
+
