@@ -4,13 +4,24 @@
 
 Configure React project using Typescript and Webpack.
 
+## Milestones
+
+- [x] Initial Setup - React + TypeScript + Webpack 1.x
+- [ ] Upgrade to Webpack2
+- [ ] SASS/LESS compilers 
+- [ ] CSS, JS optimisation
+- [ ] Production bundle
+- [ ] SVG & Image
+- [ ] Testing framework
+- [ ] Version Management
+
 ## Prerequisite
 
 1. [NodeJS](http://www.nodejs.org/) - recommended veriosn 6.x and above.
 
 ## Clone/Download Repository
 
-Download or Clone the react-starter-pack repo [here](https://github.com/sendray/react-starter-pack)
+[https://github.com/sendray/react-starter-pack.git](https://github.com/sendray/react-starter-pack.git)
 
 ## Install **npm** modules
 
